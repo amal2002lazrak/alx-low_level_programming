@@ -13,5 +13,5 @@ void _puts_recursion(char *s)
 	}
 
 	else
-		_putchar('\n');
+sh: 1: :wq: not found
 }
