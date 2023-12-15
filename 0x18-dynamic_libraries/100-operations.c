@@ -24,8 +24,7 @@ int div(int a, int b)
 
 int mod(int a, int b)
 {
-    if (b == 0)
-            printf("you cant divide by 0\n");
-
+    if (b == 0)           
+	printf("you cant divide by 0\n");
     return(a % b); 
 }
