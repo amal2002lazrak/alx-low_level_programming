@@ -1,0 +1,11 @@
+CC = gcc
+CFLAGS = -Wall
+SRC = main.c school.c
+
+all: school
+
+school:
+	$(CC) $(CFLAGS) $(SRC) -o school
+
+clean:
+	rm -f school
